@@ -3,8 +3,7 @@ python:
 - 3.6
 before_install:
 - python --version
-- pip install -r requeriments.txt
-- pip install -U pytest-cov
+- pip install -r requiriments.txt
 script:
 - pylint_runner
 - pytest --cov=com.joao com/joao/test/
