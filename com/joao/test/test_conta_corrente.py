@@ -1,4 +1,3 @@
-import pytest
 from com.joao.conta_corrente import ContaCorrente
 
 def test_alterarNome():
